@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl -o ~/.cache/minecraft.deb https://launcher.mojang.com/download/Minecraft.deb && \
+	sudo apt install ~/.cache/minecraft.deb && \
+	rm ~/.cache/minecraft.deb
